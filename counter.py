@@ -6,4 +6,4 @@ def count_occurrences(filename, word):
             # Split text into words and count occurrences
             return text.split().count(word.lower())
     except FileNotFoundError:
-        return 0
+        return 0
